@@ -419,6 +419,19 @@ p {
 }
 
 
+@media (max-width: 768px) {
+    .education-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education-column {
+        max-width: 100%;
+    }
+}
+
+
+
 
 .education-content .location {
     font-size: 1.4rem;
@@ -767,7 +780,7 @@ section {
 }
 
 .home-content h1 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .home-img img {
