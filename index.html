@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Kévine DIANTOUADI-FRAY</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-***************" crossorigin="anonymous" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" >
+  </head>
+
+  <body>
+    <!-- header design -->
+     <header class="header">
+             <a href="#" class="logo">Portfolio</a>
+
+             <i class="bx bx-menu" id="menu-icon"></i>
+
+             <nav class="navbar">
+                 <a href="#home" class="active" data-lang="fr" data-en="Home" data-fr="Accueil">Accueil</a>
+                 <a href="#about" data-lang="fr" data-en="About" data-fr="À propos">À propos</a>
+                 <a href="#education" data-lang="fr" data-en="Education & Experience" data-fr="Formation & Éxperience">Formation & Éxperience</a>
+                 <a href="#portfolio">Portfolio</a>
+                 <a href="#skills" data-lang="fr" data-en="Skills" data-fr="Compétences">Compétences</a>
+                 <a href="#contact">Contact</a>
+                 
+                 <a href="#" onclick="toggleLanguage()" id="toggleLanguageButton">
+                  <img src="images/icone.png" alt="Toggle Language">
+                  <span id="languageIndicator"></span>
+              </a>
+
+              </nav>   
+      </header>
+    
+
+
+    <!-- home section design -->
+    <section class="home" id="home">
+         <div class="home-content">
+          <h3 data-lang="fr" data-en="Hello, It's Me" data-fr="Bonjour, C'est moi">Bonjour, C'est moi</h3>
+          <h1>Kévine DIANTOUADI-FRAY</h1>
+          <h3> <span class="multiple-text"></span></h3>
+          <p data-lang="fr" data-en="Immerse yourself in the fascinating world of data through my portfolio!
+          Looking for exceptional internship or work-study opportunities, I invite you to explore a summary of my academic experiences, my innovative data projects, and my dynamic project management skills." data-fr="Plongez dans l'univers fascinant de la data à travers mon portfolio ! 
+          En quête d'opportunités exceptionnelles de stage ou d'alternance, je vous invite à explorer un condensé de mes expériences académiques, de mes projets innovants en data, et de mes compétences dynamiques en gestion de projet.">Plongez dans l'univers fascinant de la Data à travers mon portfolio ! <br>
+          En quête d'opportunités exceptionnelles de stage ou d'alternance, je vous invite à explorer un condensé de mes expériences académiques, de mes projets innovants en Data, et de mes compétences dynamiques en Gestion de projet.</p>
+
+             <p class="bold-text" data-lang="fr" data-en="Welcome to a journey where passion for data meets project management expertise !" data-fr="Bienvenue dans un voyage où la passion pour les données rencontre l'expertise en gestion de projet !">Bienvenue dans un voyage où la passion pour les données rencontre l'expertise en gestion de projet !</p>
+          <div class="social-media">
+            <a href="https://www.facebook.com/Medah.Maloum/" target="_blank"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://twitter.com/Ahmed__Maloum" target="_blank"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.instagram.com/ahmed__maloum/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.linkedin.com/in/ahmed-maloum-31995217a/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/AhmedMALOUM" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="Cv_Ahmed_MALOUM_Alternance_ChefDeProjetData.pdf"
+            class='btn' target="_blank" data-lang="fr" data-en="Download CV" data-fr="Télécharger CV">Télécharger CV</a>
+         </div>
+
+        <div class="home-img">
+          <img src="images/kevine.png" alt="" style="border-radius: 50%; object-fit: fill;" height="500px">
+        </div>
+
+    </section>
+
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/zstin.png"alt="" style="border-radius: 25%; ">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading" data-lang="fr" data-en="About Me" data-fr="À propos de Moi">À propos de<span> Moi</span></h2>
+        <h3 data-lang="fr" data-en="Data Project Manager" data-fr="Chef de Projet Data">Chef de Projet Data</h3>
+        <p data-lang="fr" data-en="Student in Master Big Data & Analysis, I am passionate about the field of data and project management. I am actively looking for internship or work-study opportunities. My goal is to merge my project management skills with the power of data. I want to actively contribute to the sector by exploring the world of data, particularly in data management and analysis.
+         Having been exposed to projects during my studies, I have expertise in planning, coordinating and delivering projects effectively. My multidisciplinary approach allows me to bring a unique perspective at the crossroads of project management and data science. In particular, I have a solid understanding of data concepts, including the analysis and manipulation of data with tools such as Python and SQL, as well as visualization skills with tools like PowerBi and Tableau." 
+         data-fr="Étudiant en Master Big Data & Analysis, je suis passionné par le domaine de la data et la gestion de projet. Je suis activement à la recherche d'opportunitées de stage ou d'alternance. Mon objectif est de fusionner mes compétences en gestion de projet avec la puissance de la data. Je souhaite contribuer activement au secteur en explorant le monde de la data, notamment dans la gestion et l'analyse de données. 
+         Ayant été exposé à des projets au cours de mes études, je possède une expertise dans la planification, la coordination et la réalisation de projets de manière efficace. Mon approche pluridisciplinaire me permet d'apporter une perspective unique à la croisée de la gestion de projet et de la data science. Je détiens notamment une solide compréhension des concepts de la data, incluant l'analyse et la  manipulation de données avec des outils tels que Python et SQL, ainsi que des compétences en visualisation avec des outils comme PowerBi et Tableau.">
+         Étudiant en Master Big Data & Analysis, je suis passionné par le domaine de la data et la gestion de projet. Je suis activement à la recherche d'opportunitées de stage ou d'alternance. Mon objectif est de fusionner mes compétences en gestion de projet avec la puissance
+         de la data. Je souhaite contribuer activement au secteur en explorant le monde de la data, notamment dans la gestion et l'analyse de données.
+         <br>Ayant été exposé à des projets au cours de mes études, je possède une expertise dans la planification, la coordination et la réalisation de projets de manière efficace. Mon approche pluridisciplinaire me permet d'apporter une perspective unique à la croisée de la gestion de projet et de la data science. Je détiens notamment une solide compréhension des concepts de la data, incluant l'analyse et la manipulation de données avec des outils tels que Python et SQL, ainsi que des compétences en visualisation avec des outils comme PowerBi et Tableau.</br>
+        </p>
+        <p id="hiddenContent" style="display: none;" class="hidden-content" data-lang="fr" data-en="Outside of my studies, I participated in personal projects of data analysis, demonstrating my passion for data exploration and the application of analytical methods. My portfolio aims to reflect my versatile profile, highlighting my project management skills and my strong interest in the data field. I am excited to discuss how I can contribute to a team and grow in the field of data." 
+         data-fr="En dehors de mes études, j'ai participé à des projets personnels d'analyse de données, démontrant ma passion pour l'exploration de données et l'application de méthodes analytiques. Mon portfolio vise à refléter mon profil polyvalent, mettant en avant mes compétences en gestion de projet et mon intérêt marqué pour le domaine de la data. Je suis enthousiaste à l'idée de discuter de la manière dont je peux contribuer à une équipe et évoluer dans le domaine de la data.">En dehors de mes études, j'ai participé à des projets personnels d'analyse de données, démontrant ma passion pour l'exploration de données
+         et l'application de méthodes analytiques. Mon portfolio vise à refléter mon profil polyvalent, mettant en avant mes compétences en gestion de projet
+         et mon intérêt marqué pour le domaine de la data.Je suis enthousiaste à l'idée de discuter de la manière dont je peux contribuer à une équipe et évoluer dans le domaine de la data.
+        </p>
+
+        <p class="read-more-btn" onclick="toggleVisibility()">Read More</p>
+          
+          
+      </div>
+    </section>
+
+    <!-- Education section design -->
+    <section class="education" id="education">
+      <h2 class="heading">Education & <span>Experience</span></h2>
+    
+      <div class="education-row">
+        <div class="education-column">
+          <h3 class="title">Education</h3>
+    
+          <div class="education-box">
+            <div class="education-content">
+              <div class="content">
+                <div class="year"><i class="bx bxs-calendar"> 2023 - 2025</i></div>
+                <h3 data-lang="fr" data-en="Master 1 : Expert in information systems and security" data-fr="Master 1 : Expert en systemes d'information et securité">Master 1 : Expert en systemes d'information et securité</h3>
+                <div class="location"><i class='bx bxs-map'></i>ESIC School - Paris - France</div>
+              </div>
+            </div>
+    
+            <div class="education-content">
+              <div class="content">
+                <div class="year"><i class="bx bxs-calendar"> 2021 - 2023</i></div>
+                <h3 data-lang="fr" data-en="Master's degree in computer systems" data-fr="Diplome de Master en systémes informatique">Diplome de Master en systémes informatique </h3>
+                <div class="location" data-lang="fr" data-en="University of Mouloud Mammeri - Algeria" data-fr="Université Mouloud Mammeri - Algerie"><i class='bx bxs-map'></i>Université Mouloud Mammeri - Algerie</div>
+                
+              </div>
+            </div>
+    
+            <div class="education-content">
+              <div class="content">
+                <div class="year"><i class="bx bxs-calendar"> 2018 - 2021</i></div>
+                <h3 data-lang="fr" data-en="Bachelor's Degree in Mathematics and Computer Science" data-fr="Diplome de Licence en Mathématiques et Informatique">Diplome de Licence en Mathématiques et Informatique </h3>
+                <div class="location" data-lang="fr" data-en="University of Mouloud Mammeri - Algeria" data-fr="Université Mouloud Mammeri - Algerie"><i class='bx bxs-map'></i>Université Mouloud Mammeri - Algerie</div>
+              </div>
+            </div>
+    
+            <div class="education-content">
+              <div class="content">
+                <div class="year"><i class="bx bxs-calendar"> 2017 - 2018</i></div>
+                <h3 data-lang="fr" data-en="Baccalaureate option Mathematical techniques" data-fr="Baccalauréat option Techniques Mathématique">Baccalauréat option Techniques Mathématique</h3>
+                <div class="location" data-lang="fr" data-lang="fr" data-en="Hamki Idir High school - Algeria" data-fr="Lycée Hamki Idir - Algérie"><i class='bx bxs-map'></i>Lycée Hamki Idir - Algérie</div>
+                <p class="honors" data-lang="fr" data-en="High honors (Mention Good)" data-fr="Mention Bien">Mention Bien</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+
+
+
+        <div class="education-column">
+          <h3 class="title">Experience</h3>
+          <div class="education-content">
+            <div class="content">
+              <div class="year" data-lang="fr" data-fr="Mars 2023 - Août 2023" data-en="March 2023 - August 2023"><i class="bx bxs-calendar"> Mars 2023 - Août 2023</i></div>
+              <h3 data-lang="fr" data-fr="Assitant Chef de Projet Data (Stage)" Data-en="Assistant Data Project Manager (Internship)">Assitant Chef de Projet Data (Stage)</h3>
+              <div class="location" ><i class='bx bxs-map'></i>BDL Bank</div>
+              <div class="technologies">
+                <span><strong>Technologies:</strong></span> Python (Pandas), SQL, Oracle, PowerBI, Jupyter, Scrum, Jira
+              </div>
+              <p data-lang="fr" data-lang="en" data-fr="Au cours de mon stage en tant qu'assistant chef de projet data, j'ai géré la manipulation complète des données bancaires, de la collecte à la création de visualisations dynamiques avec Power BI.
+              J'ai contribué au suivi des tâches et à la planification du projet via un système de ticketage. Ma participation active aux réunions a favorisé une communication transparente au sein d'une équipe Agile, renforçant mes compétences en analyse de données."
+              data-en="During my internship as an assistant data project manager, I managed the complete manipulation of banking data, from collection to the creation of dynamic visualizations with Power BI.
+              I contributed to task tracking and project planning via a ticketing system. My active participation in meetings fostered transparent communication within an Agile team, strengthening my data analysis skills."
+              class="description">Au cours de mon stage en tant qu'assistant chef de projet data, j'ai géré la manipulation complète des données bancaires, de la collecte à la création de visualisations dynamiques avec Power BI.
+              J'ai contribué au suivi des tâches et à la planification du projet via un système de ticketage. Ma participation active aux réunions a favorisé une communication transparente au sein d'une équipe Agile, renforçant mes compétences en analyse de données.</p>
+            </div>
+          </div>
+
+          <div class="education-content">
+            <div class="content">
+              <div class="year"><i class="bx bxs-calendar"> 2022 - 2023</i></div>
+              <h3 data-lang="fr" data-en="Tutored project to obtain the Master's degree (implementation of a hash function)" data-fr="Projet tuteuré pour l'obtention du Master (Implémentation d'une fonction de hachage)">Projet tuteuré pour l'obtention du Master (Implémentation d'une fonction de hachage)</h3>
+              <div class="location" data-lang="fr" data-en="University of Mouloud Mammeri - Algeria" data-fr="Université Mouloud Mammeri - Algerie"><i class='bx bxs-map'></i>Université Mouloud Mammeri - Algerie</div>
+              <div class="technologies">
+                <span><strong>Technologies:</strong></span> C, VsCode, Git, Doxygen, Draw.io
+              </div>
+              <p class="description" data-lang="fr" data-en="A project focused on the development of an innovative hashing function based on chaotic maps. This experience enhanced my skills in C programming, problem-solving, and teamwork." data-fr="Un projet de fin d’études axé sur la création d'une fonction de
+              hachage novatrice basée sur des cartes chaotiques. Cette
+              expérience a amélioré mes compétences en programmation C,
+              en résolution de problèmes et en travail d'équipe.">-Utilisation d'algorithmes liés au chaos (Algorithme de Logistique) <br>
+             -Manipulation de bits <br>
+             -Implémentation et développement de la fonction de hachage <br>
+             -Test unitaires <br>
+             -Documentation</p>
+            </div>
+          </div>
+    
+          <div class="education-content">
+            <div class="content">
+              <div class="year"><i class="bx bxs-calendar"> 2021 - 2022</i></div>
+              <h3 data-lang="fr" data-fr="Assitant Chef de Projet Data" data-en="Assitant Chef de Projet Data"> Assitant Chef de Projet Data</h3>
+              <div class="location" data-lang="fr" data-lang="fr" data-en="University of Mouloud Mammeri - Algeria" data-fr="Université Mouloud Mammeri - Algerie"><i class='bx bxs-map'></i>Université Mouloud Mammeri - Algerie</div>
+              <div class="technologies">
+                <span><strong>Technologies:</strong></span> Python (BeautifulSoup et Requests), Trello, Agile
+              </div>
+
+              
+              <p class="description" data-lang="fr" data-en="The main objective of this project is to design and implement web scraping script using Python programming language and his libraries BeautifulSoup & Requests. This automated script will navigate specific websites to extract relevant data for subsequent use." data-fr="L'objectif principal de ce projet est de concevoir et d'implémenter un script de web scraping à l'aide du langage de programmation Python avec ses bibliothéques BeautifulSoup et Requests. Ce script automatisé va explorer des sites web spécifiques pour extraire des données pertinentes pour une utilisation ultérieure.">L'objectif principal de ce projet est de concevoir et d'implémenter un
+              script de web scraping à l'aide du langage de programmation
+              Python avec ses bibliothéques BeautifulSoup et Requests. Ce script automatisé va explorer des sites web
+              spécifiques pour extraire des données pertinentes pour une utilisation
+              ultérieure.</p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    </section>
+    
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+    <h2 class="heading" data-lang="fr" data-en="Latest Projects" data-fr="Projets Récents">Projets <span>Récents</span></h2>
+
+    <div class="portfolio-container">
+     <div class="portfolio-box">
+        <img src="images/portfolio7.jpeg" alt="">
+        <div class="portfolio-layer">
+            <h4 data-lang="fr" data-en="Pizza Sales Dashboard using Power BI, Ms SQL Server, SSMS" data-fr="Tableau de bord des ventes de Pizza avec Power BI, Ms SQL Server, SSMS">Tableau de bord des ventes de Pizza avec Power BI, Ms SQL Server, SSMS</h4>
+            <div class="button-container">
+                <a onclick="openDashModal()" class="button" data-lang="fr" data-fr="Afficher les Dashboards" data-en="Show Dashboard">Afficher les Dashboards</a>
+                <a href="https://github.com/AhmedMALOUM/Dashboard-Power-BI-Pizza-Sales-" data-lang="fr" class="button" target="_blank" data-en="View project on GitHub" data-fr="Voir le projet sur Github">Voir le projet sur Github</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal" id="DashModal">
+      <div class="modal-content">
+          <span class="close" onclick="closeDashModal()">&times;</span>
+          <img id="DashModalImage" alt="Dash Image">
+          <button id="nextDashButton" onclick="showNextDashImage()" class="button arrow-button"><i class="fas fa-arrow-right"></i></button>
+          <button id="prevDashButton" onclick="showPreviousDashImage()" class="button arrow-buttonl"><i class="fas fa-arrow-left"></i></button>
+        
+      </div>
+    </div>
+      
+      
+      <div class="portfolio-box">
+        <img src="images/portfolio3.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4 data-lang="fr" data-en="Personal Portfolio" data-fr="Portfolio Personnel">Portfolio Personnel</h4>
+            <div class="button-container">
+                <a onclick="openPortfolioModal()" class="button" data-lang="fr" data-fr="Afficher le Portfolio" data-en="Show Portfolio">Afficher le Portfolio</a>
+                <a href="https://github.com/AhmedMALOUM/Personnal-Portfolio" data-lang="fr" class="button" target="_blank" data-en="View Code on GitHub" data-fr="Voir le code sur Github">Voir le code sur Github</a>
+            </div>
+        </div>
+      </div>
+      
+      
+      <div class="modal" id="portfolioModal">
+      <div class="modal-content">
+          <span class="close" onclick="closePortfolioModal()">&times;</span>
+          <img id="portfolioModalImage" alt="Portfolio Image">
+          <button id="nextPortfolioButton" onclick="showNextPortfolioImage()" class="button arrow-button"><i class="fas fa-arrow-right"></i></button>
+          <button id="prevPortfolioButton" onclick="showPreviousPortfolioImage()" class="button arrow-buttonl"><i class="fas fa-arrow-left"></i></button>
+      </div>
+      </div>
+      
+      
+      
+      <div class="portfolio-box" id="restaurant-website">
+        <img src="images/portfolio3.jfif" alt="">
+        <div class="portfolio-layer">
+            <h4 data-lang="fr" data-en="Web site for a restaurant" data-fr="Site web pour un restaurant">Site web pour un restaurant</h4>
+            <div class="button-container">
+                <a onclick="openModal()" class="button" data-lang="fr" data-en="Show interfaces" data-fr="Affihcer les interfaces">Affihcer les interfaces</a>
+                <a href="https://github.com/AhmedMALOUM/Restaurant-Web-site" class="button" target="_blank" data-en="View Code on GitHub" data-fr="Voir le code sur Github">Voir le code sur Github</a>
+            </div>
+        </div>
+      </div>
+      
+      
+      <div class="modal" id="imageModal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImage" alt="Your Image">
+        <button id="nextButton" onclick="showNextImage()" class="button arrow-button"><i class="fas fa-arrow-right"></i></button>
+        <button id="prevButton" onclick="showPreviousImage()"class="button arrow-buttonl"><i class="fas fa-arrow-left"></i></button>
+      </div>
+      </div>
+      
+      
+      <div class="portfolio-box">
+        <img src="images/portfolio2.jfif" alt="">
+        <div class="portfolio-layer">
+          <h4 data-lang="fr" data-fr="Fontion de hachage" data-en="Hash Function">Fontion de hachage</h4>
+          <div class="button-container">
+            <a onclick="openFunctionModal()" class="button" data-lang="fr" data-en="Show Function diagram" data-fr="Afficher le diagramme">Afficher le diagramme</a>
+            <a href="https://github.com/AhmedMALOUM/Hash-function" class="button" target="_blank" data-lang="fr" data-en="View Code on GitHub" data-fr="Voir le code sur GitHub">Voir le code sur GitHub</a>
+        </div>
+        </div>
+      </div>
+      
+      <div class="modal" id="functionImageModal">
+        <div class="modal-content">
+          <span class="close" onclick="closeFunctionModal()">&times;</span>
+          <img id="functionModalImage" alt="Function Image">
+          <button id="nextFunctionButton" onclick="showNextFunctionImage()" class="button arrow-button"><i class="fas fa-arrow-right"></i></button>
+          <button id="prevFunctionButton" onclick="showPreviousFunctionImage()" class="button arrow-buttonl"><i class="fas fa-arrow-left"></i></button>
+      </div>
+      </div>
+      
+      
+      
+      <div class="portfolio-box">
+        <img src="images/portfolio1.jfif" alt="">
+        <div class="portfolio-layer">
+          <h4 data-lang="fr" data-en="Sales Dashboard using PowerBi & Tableau" data-fr="Tableau de bord des ventes avec PowerBi et Tableau">Tableau de bord des ventes avec PowerBi et Tableau</h4>
+          <div class="button-container">
+          <a onclick="openDashboardModal()" class="button" data-lang="fr" data-en="Show Dashboards" data-fr="Afficher les Dashboards">Afficher les Dashboards</a>
+          <a href="https://github.com/AhmedMALOUM/Sales-Dashboard" class="button" target="_blank" data-lang="fr" data-en="View project" data-fr="Afficher le projet">Afficher le projet</a>
+        </div>
+      </div>
+      </div>
+      
+      <div class="modal" id="dashboardModal">
+      <div class="modal-content">
+        <span class="close" onclick="closeDashboardModal()">&times;</span>
+        <img id="dashboardModalImage" alt="Dashboard Image">
+        <button id="nextDashboardButton" onclick="showNextDashboardImage()" class="button arrow-button"><i class="fas fa-arrow-right"></i></button>
+        <button id="prevDashboardButton" onclick="showPreviousDashboardImage()" class="button arrow-buttonl"><i class="fas fa-arrow-left"></i></button>
+      </div>
+      </div>
+
+  </div>  
+    
+  </section>
+
+
+
+<!-- Skills section design -->
+<section class="skills" id="skills">
+  <h2 class="heading" data-lang="fr" data-en="Skills" data-fr="Compétences">Compétences</h2>
+
+  <div class="skills-container">
+    <!-- Web Skills -->
+    <div class="skills-category">
+      <h3>Web</h3>
+      <ul>
+        <li data-percent="80"><i class="bx bxl-html5"></i> HTML/CSS/JS <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="80"><i class="bx bxl-php"></i> PHP <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="60"><i class="bx bxl-nodejs"></i> Node.js <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="60"><i class="bx bxl-wordpress"></i> WordPress <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+      </ul>
+    </div>
+
+    <!-- Database Skills -->
+    <div class="skills-category">
+      <h3 data-lang="fr" data-en="Databases" data-fr="Bases de Données">Bases de Données</h3>
+      <ul>
+        <li data-percent="80"><i class='bx bx-data'></i> MySQL <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="70"><i class="bx bx-circle"></i> Oracle <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="70"><i class='bx bxs-data'></i> SQL, PL/SQL <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="80"><i class="bx bx-sitemap"></i> Merise <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+      </ul>
+    </div>
+
+    <!-- Programming Skills -->
+    <div class="skills-category">
+      <h3 data-lang="fr" data-en="Programming" data-fr="Programmation">Programmation</h3>
+      <ul>
+        <li data-percent="70"><i class="bx bxl-python"></i> Python <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="60"><i class="bx bxs-copyright"></i> C# <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="60"><i class="bx bxl-java"></i> Java <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="60"><i class='bx bxs-microchip'></i> ASM <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+      </ul>
+    </div>
+
+
+
+    <!-- Data Skills -->
+    <div class="skills-category">
+      <h3 data-lang="fr" data-en="Data Analysis" data-fr="Analyse de données">Analyse de données</h3>
+      <ul>
+        <li data-percent="80"><i class='bx bx-chart'></i> Power Bi <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="75"><i class='bx bx-loader-circle'></i> Tableau <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="75"><i class='bx bxl-microsoft'></i> Excel <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="70"><i class='bx bxs-registered'></i> R <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+      </ul>
+    </div>
+
+     <!-- Project Skills -->
+     <div class="skills-category">
+      <h3 data-lang="fr" data-en="Project Management" data-fr="Gestion de projet">Gestion de projet</h3>
+      <ul>
+        <li data-percent="75"><i class='bx bx-analyse'></i> Agile (scrum)<div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="75"><i class='bx bx-list-ol'></i> Ms Project <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="75"><i class='bx bxs-tag-alt'></i> Jira <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="70"><i class='bx bx-objects-horizontal-left'></i></i> Trello <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+      </ul>
+    </div>
+
+    <!-- Other Skills -->
+    <div class="skills-category">
+      <h3 data-lang="fr" data-en="Others" data-fr="Autres">Autres</h3>
+      <ul>
+        <li data-percent="70"><i class='bx bxl-aws'></i> Aws Cloud <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="70"><i class='bx bxs-component'></i> Virtual Box <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="70"><i class='bx bxl-figma'></i> Figma <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+        <li data-percent="60"><i class='bx bx-server'></i> Packet Tracer <div class="progress-bar-container"><div class="progress-bar"></div><span class="percent-text"></span></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+ 
+
+
+    
+   <!-- Section contact -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contactez <span>Moi!</span></h2>
+
+  <form action="https://formspree.io/f/xqkrqaga" method="post">
+
+      <div class="input-box">
+          <input type="text" name="full_name" placeholder="Nom complet">
+          <input type="email" name="e_mail" placeholder="Adresse e-mail">
+      </div>
+      <div class="input-box">
+          <input type="text" name="phone" placeholder="Numéro de téléphone">
+          <input type="text" name="subject" placeholder="Sujet du message">
+      </div>
+      <textarea name="message" cols="30" rows="10" placeholder="Votre message"></textarea>
+      <input type="submit" value="Envoyer le message" class="btn">
+  </form>
+
+
+     
+    <!-- footer design -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Kévine DIANTOUADI-FRAY / All rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+
+
+  
+
+  </body>
+</html>
