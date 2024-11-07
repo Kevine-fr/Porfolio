@@ -294,6 +294,8 @@ function closeModal() {
 let currentFunctionImageIndex = 0;
 const functionImages = ["images/fp1.png", "images/fp2.png", "images/fp3.png", "images/fp4.png", "images/fp5.png", "images/fp6.png", "images/fp7.png", "images/fp8.png", "images/fp9.png", "images/fp10.png", "images/fp11.png", "images/fp12.png", "images/fp13.png", "images/fp14.png", "images/fp15.png", "images/fp16.png", "images/fp17.png", "images/fp18.png"];
 
+// Github
+
 // ...
 
 // Fonction pour ouvrir la deuxième fenêtre modale
