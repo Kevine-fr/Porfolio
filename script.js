@@ -118,7 +118,7 @@ function toggleVisibility() {
 
 
 let currentDashboardImageIndex = 0;
-const dashboardImages = ["images/E1.png", "images/E2.png", "images/T1.png", "images/T2.png"];
+const dashboardImages = ["images/cp1.png", "images/cp2.png", "images/cp3.png", "images/cp4.png", "images/cp5.png", "images/cp6.png", "images/cp7.png", "images/cp8.png", "images/cp9.png", "images/cp10.png", "images/cp11.png", "images/cp12.png", "images/cp13.png", "images/cp14.png"];
 
 
 function openDashboardModal() {
@@ -204,7 +204,7 @@ function closeDashboardModal() {
 
 
 let currentImageIndex = 0;
-const images = ["images/r1.png", "images/r2.png", "images/r3.png", "images/r4.png", "images/r5.png", "images/footer.png"];
+const images = ["images/rp1.png", "images/rp2.png", "images/rp3.png", "images/rp4.png", "images/rp5.png", "images/rp6.png", "images/rp7.png", "images/rp8.png", "images/rp9.png", "images/rp10.png", "images/rp11.png", "images/rp12.png", "images/rp13.png", "images/rp14.png"];
 
 function openModal() {
     var modal = document.getElementById("imageModal");
@@ -292,7 +292,7 @@ function closeModal() {
 
 
 let currentFunctionImageIndex = 0;
-const functionImages = ["images/f1.png", "images/f2.png"];
+const functionImages = ["images/fp1.png", "images/fp2.png", "images/fp3.png", "images/fp4.png", "images/fp5.png", "images/fp6.png", "images/fp7.png", "images/fp8.png", "images/fp9.png", "images/fp10.png", "images/fp11.png", "images/fp12.png", "images/fp13.png", "images/fp14.png", "images/fp15.png", "images/fp16.png", "images/fp17.png", "images/fp18.png"];
 
 // ...
 
@@ -382,7 +382,7 @@ function closeFunctionModal() {
 }
 
 let currentPortfolioImageIndex = 0;
-const portfolioImages = ["images/p1.png", "images/p2.png", "images/p3.png", "images/p4.png" /* Ajoutez d'autres images ici */];
+const portfolioImages = ["images/cp1.png", "images/cp2.png", "images/cp3.png", "images/cp4.png", "images/cp5.png", "images/cp6.png", "images/cp7.png", "images/cp8.png", "images/cp9.png", "images/cp10.png", "images/cp11.png", "images/cp12.png", "images/cp13.png", "images/cp14.png", "images/cp15.png", "images/cp16.png", "images/cp17.png", "images/cp18.png"];
 
 // ...
 
@@ -465,7 +465,7 @@ function closePortfolioModal() {
 }
 
 let currentDashImageIndex = 0;
-const DashImages = ["images/D1.png", "images/D2.png", "images/D3.png", "images/D4.png", "images/D5.png", "images/D6.png" /* Ajoutez d'autres images ici */];
+const DashImages = ["images/sp1.png", "images/sp2.png", "images/sp3.png", "images/sp4.png", "images/sp5.png" /* Ajoutez d'autres images ici */];
 
 // ...
 
