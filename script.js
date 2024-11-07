@@ -118,7 +118,7 @@ function toggleVisibility() {
 
 
 let currentDashboardImageIndex = 0;
-const dashboardImages = ["images/mp1.png", "images/mp2.png", "images/mp3.png", "images/mp4.png", "images/mp5.png", "images/mp6.png", "images/mp7.png", "images/mp9.png"];
+const dashboardImages = ["images/mp1.png", "images/mp2.png", "images/mp3.png", "images/mp4.png", "images/mp5.png", "images/mp6.png", "images/mp7.png", "images/mp8.png", "images/mp9.png"];
 
 
 function openDashboardModal() {
