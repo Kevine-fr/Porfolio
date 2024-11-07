@@ -118,7 +118,7 @@ function toggleVisibility() {
 
 
 let currentDashboardImageIndex = 0;
-const dashboardImages = ["images/cp1.png", "images/cp2.png", "images/cp3.png", "images/cp4.png", "images/cp5.png", "images/cp6.png", "images/cp7.png", "images/cp9.png", "images/cp10.png", "images/cp11.png", "images/cp12.png", "images/cp13.png", "images/cp14.png"];
+const dashboardImages = ["images/mp1.png", "images/mp2.png", "images/mp3.png", "images/mp4.png", "images/mp5.png", "images/mp6.png", "images/mp7.png", "images/mp9.png"];
 
 
 function openDashboardModal() {
@@ -204,7 +204,7 @@ function closeDashboardModal() {
 
 
 let currentImageIndex = 0;
-const images = ["images/rp1.png", "images/rp2.png", "images/rp3.png", "images/rp4.png", "images/rp5.png", "images/rp6.png", "images/rp7.png", "images/rp8.png", "images/rp9.png", "images/rp10.png", "images/rp11.png", "images/rp12.png", "images/rp13.png", "images/rp14.png"];
+const images = ["images/rp1.png", "images/rp2.png", "images/rp3.png", "images/rp4.png", "images/rp5.png", "images/rp6.png", "images/rp7.png", "images/rp8.png", "images/rp9.png", "images/rp10.png", "images/rp11.png", "images/rp12.png", "images/rp13.png", "images/rp14.png", "images/rp15.png", "images/rp16.png", "images/rp17.png", "images/rp18.png", "images/rp19.png"];
 
 function openModal() {
     var modal = document.getElementById("imageModal");
@@ -384,7 +384,7 @@ function closeFunctionModal() {
 }
 
 let currentPortfolioImageIndex = 0;
-const portfolioImages = ["images/cp1.png", "images/cp2.png", "images/cp3.png", "images/cp4.png", "images/cp5.png", "images/cp6.png", "images/cp7.png", "images/cp9.png", "images/cp10.png", "images/cp11.png", "images/cp12.png", "images/cp13.png", "images/cp14.png"];
+const portfolioImages = ["images/cp1.png", "images/cp2.png", "images/cp3.png", "images/cp4.png", "images/cp5.png", "images/cp6.png", "images/cp7.png", "images/cp10.png", "images/cp11.png", "images/cp12.png", "images/cp13.png", "images/cp9.png", "images/cp14.png"];
 
 // ...
 
